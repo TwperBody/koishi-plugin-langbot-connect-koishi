@@ -2,6 +2,9 @@
   "name": "koishi-plugin-langbot-connect-koishi",
   "description": "将Langbot专AI框架接入koishi",
   "version": "1.0.0",
+  "contributors": [                         
+  "TwperBody <mcjiekejiemi@163.com>"
+  ],
   "main": "src/index.ts",
   "main1": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -14,6 +17,10 @@
     "src"
   ],
   "license": "MIT",
+  "repository": {                           
+  "type": "git",
+  "url": "git+https://github.com/TwperBody/koishi-plugin-langbot-connect-koishi"
+},
   "scripts": {},
   "keywords": [
     "chatbot",
@@ -21,6 +28,10 @@
     "plugin"
   ],
   "koishi": {
+    "preview": true,
+    "description": {
+      "zh": "将Langbot专AI框架接入koishi"
+    },
     "service": {
       "required": [
         "server"
